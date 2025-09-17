@@ -79,7 +79,7 @@ export default function ReportNewIssue() {
   });
 
   try {
-    const response = await fetch("http://<your-ip>:5000/issue", {
+    const response = await fetch("", {
       method: "POST",
       body: formData,
       headers: {
